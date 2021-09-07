@@ -1,0 +1,61 @@
+body {
+  background: url("https://previews.123rf.com/images/jirkaejc/jirkaejc0912/jirkaejc091200173/6119155-gambling-frame-made-from-poker-cards.jpg");
+  background-size: cover;
+  text-align: center;
+  padding:0 30px;
+}
+
+#start {
+  margin-top: 20%;
+}
+
+#start.human, #start.computer {
+  margin: 50px;
+}
+
+.welcome {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 300%;
+}
+
+#game {
+  display: none;
+  font-family: 'Rock Salt', cursive;
+}
+
+.card {
+  display: inline;
+  width: 10%;
+  margin: 0.5%;
+  white-space: normal;
+  background: black;
+}
+
+#players {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+#reset {
+  margin: 20px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  padding: 20px;
+}
+
+#turn {
+  font-size: 120%;
+  font-family: 'Bungee Inline', cursive;
+}
+
+#score1, #score2 {
+  font-weight: bold
+}
